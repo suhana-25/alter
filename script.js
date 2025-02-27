@@ -19,11 +19,9 @@ gsap.defaults({
 });
 
 const menuItems = document.querySelectorAll('.menu__item');
-
 menuItems.forEach((item) => {
     const imageWrapper= item.querySelector('.menu__item-image_wrapper');
     const imageWrapperBounds = imageWrapper.getBoundingClientRect();
-
     let itemBounds = item.getBoundingClientRect();
     const onMouseEnter = () =>{
         gsap.set(imageWrapper,{
@@ -32,13 +30,10 @@ menuItems.forEach((item) => {
         yPercent: 50,
         rotation:-15,
         });
-
         gsap.to(imageWrapper,{
             opacity:1, scale:1, yPercent:0, rotation:0
-        });
-        
+        }); 
     }
-
     const onMouseLeave =()=>{
         gsap.to(imageWrapper,{
             opacity:0,
