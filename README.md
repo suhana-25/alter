@@ -1,6 +1,6 @@
 ## Learning Animation 
 
+I made hover Animation using GSAP Block
+It is like smooth and soft Hover effect 
 
-
-I have made hover Animation using GSAP Block
-
+Exploring more interesting features of GSAP
