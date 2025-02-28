@@ -1,6 +1,5 @@
 
 const { gsap } = window;
-
 gsap.timeline().set(".menu", {autoAlpha:1})
 .from(".menu__item-innertext",{
     delay:1,
